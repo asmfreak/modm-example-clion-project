@@ -1,0 +1,19 @@
+<library>
+  <extends>modm:blue-pill</extends>
+  <options>
+    <option name="modm:build:build.path">build</option>
+  </options>
+  <modules>
+    <module>modm:build:cmake</module>
+    <module>modm:platform:can</module>
+    <module>modm:platform:uart</module>
+    <module>modm:platform:uart:1</module>
+    <module>modm:platform:uart:2</module>
+    <module>modm:processing:timer</module>
+    <module>modm:platform:timer</module>
+    <module>modm:platform:timer:1</module>
+    <module>modm:platform:i2c</module>
+    <module>modm:driver:mpu6050</module>
+<!--    <module>modm:build:scons</module> -->
+  </modules>
+</library>

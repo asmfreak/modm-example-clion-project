@@ -1,0 +1,8 @@
+*/SCons*
+*/build/
+src/Makefile  
+*.xml.log
+*CMakeLists.txt  
+src/modm
+.idea/workspace.xml
+compile_commands.json
